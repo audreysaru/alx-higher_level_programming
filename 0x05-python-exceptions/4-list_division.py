@@ -9,10 +9,14 @@ def list_division(my_list_1, my_list_2, list_length):
         try:
             a = my_list_1[i] if i < len(my_list_1) else 0
             b = my_list_2[i] if i < len(my_list_2) else 0
+
+            if b == 0:
+                raise ZeroDivisionError("division by 0")
+
             result = a / b
 
-        except ZeroDivisionError:
-            print("division by 0")
+        except ZeroDivisionError as e:
+            print(e)
         except TypeError:
             print("wrong type")
         except IndexError:
