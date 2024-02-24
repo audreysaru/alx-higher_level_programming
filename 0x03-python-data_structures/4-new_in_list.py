@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""a function that replaces an element in a list at a specific position without modifying the original list"""
-
+# replaces an element at a specific position without modifying the original list
 
 def new_in_list(my_list, idx, element):
     length = len(my_list)
@@ -10,4 +9,4 @@ def new_in_list(my_list, idx, element):
     if 0 <= idx < length:
         copy_list[idx] = element
 
-    return(copy_list)
+    return (copy_list)
