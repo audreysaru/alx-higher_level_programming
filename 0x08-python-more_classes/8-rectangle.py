@@ -3,7 +3,7 @@
 """
 This module defines a Rectangle class with width and height attributes,
 and methods to calculate area, perimeter, and string representation.
-"""`
+"""
 
 class Rectangle:
     """
