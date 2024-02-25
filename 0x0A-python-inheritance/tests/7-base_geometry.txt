@@ -1,0 +1,17 @@
+# Test case for area method
+>>> bg = BaseGeometry()
+>>> bg.area()
+Traceback (most recent call last):
+...
+Exception: area() is not implemented
+
+# Test cases for integer_validator method
+>>> bg.integer_validator("height", 5)  # Valid integer
+>>> bg.integer_validator("width", "10")
+Traceback (most recent call last):
+...
+TypeError: width must be an integer
+>>> bg.integer_validator("size", 0)
+Traceback (most recent call last):
+...
+ValueError: size must be greater than 0
