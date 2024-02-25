@@ -1,0 +1,16 @@
+# Test Case 1: Both first name and last name provided
+First Name: John
+Last Name: Doe
+Expected Output:
+My name is John Doe
+
+# Test Case 2: Only first name provided
+First Name: Alice
+Expected Output:
+My name is Alice
+
+# Test Case 3: Empty names
+First Name: ""
+Last Name: ""
+Expected Output:
+My name is

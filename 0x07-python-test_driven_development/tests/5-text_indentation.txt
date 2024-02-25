@@ -1,0 +1,22 @@
+# Test Case 1: Basic indentation
+Input Text:
+This is a sample text.
+
+Expected Output:
+This is a sample text.
+
+# Test Case 2: Multiple separators
+Input Text:
+Hello world. How are you? I'm good.
+
+Expected Output:
+Hello world.
+How are you?
+I'm good.
+
+# Test Case 3: No separators
+Input Text:
+No separators in this text
+
+Expected Output:
+No separators in this text

@@ -1,0 +1,19 @@
+# Test Case 1: Size is 3
+Size: 3
+Expected Output:
+###
+###
+###
+
+# Test Case 2: Size is 5
+Size: 5
+Expected Output:
+#####
+#####
+#####
+#####
+#####
+
+# Test Case 3: Size is 0
+Size: 0
+Expected Output: (no output, as the size is 0)
