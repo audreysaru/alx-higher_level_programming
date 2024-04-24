@@ -9,13 +9,13 @@ const size = parseInt(arg);
 if (!isNaN(size)) {
   // Use a loop to print a square of size x
   for (let i = 0; i < size; i++) {
-    let row = "";
+    let row = '';
     for (let j = 0; j < size; j++) {
-      row += "X";
+      row += 'X';
     }
     console.log(row);
   }
 } else {
   // Print "Missing size" if the argument cannot be converted
-  console.log("Missing size");
+  console.log('Missing size');
 }

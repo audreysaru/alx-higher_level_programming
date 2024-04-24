@@ -1,9 +1,9 @@
 #!/usr/bin/node
 // Define a function add with parameters a and b
-function add(a, b) {
+function add (a, b) {
   // Calculate the sum of a and b
   const sum = a + b;
-  
+
   // Print the sum
   console.log(sum);
 }

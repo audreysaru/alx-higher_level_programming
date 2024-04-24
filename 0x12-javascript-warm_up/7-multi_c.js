@@ -9,9 +9,9 @@ const x = parseInt(arg);
 if (!isNaN(x)) {
   // Use a loop to print "C is fun" x times
   for (let i = 0; i < x; i++) {
-    console.log("C is fun");
+    console.log('C is fun');
   }
 } else {
   // Print "Missing number of occurrences" if the argument cannot be converted
-  console.log("Missing number of occurrences");
+  console.log('Missing number of occurrences');
 }
